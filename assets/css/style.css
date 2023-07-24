@@ -30,7 +30,14 @@ body {
     font-family: var(--fonte-principal);
 }
 
+h1 {
+    font-size: 2.5rem;
+    color: var(--cor1);
+    text-align: center;
+}
+
 p {
-    font-family: var(--fonte-leitura);
+    font-family: var(--fonte-leitura), sans-serif;
     font-weight: 500;
+    line-height: 1.6rem;
 }
