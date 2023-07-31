@@ -7,13 +7,13 @@
 }
 
 :root {
-    --cor0: #40a489;
+    --cor0: #2ecfa4;
     --cor1: #C94526;
     --cor2: #B61E61;
     --cor3: #f6cf80;
     --cor4: #ffbb34;
-    --cor5: #1f1f1fc8;
-    --cor6: #e7e7e7dd;
+    --cor5: #373737df;
+    --cor6: #e7e7e7f4;
     --cor7: #191919;
     --cor8: #f8f8f8;
 
@@ -21,9 +21,25 @@
         to right, var(--cor1), var(--cor2), var(--cor0)
     );
 
-    --fonte-principal: 'Roboto Slab', serif;
+    --fonte-principal: 'Lato', sans-serif;
     --fonte-leitura: 'Montserrat', sans-serif;
     --fonte-manuscrita: 'Norican', serif;
+}
+
+html {
+    overflow-x: hidden;
+    scrollbar-width: thin;
+    scrollbar-color: var(--cor5) var(--cor6);
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+    width: 10px;
+}
+
+html::-webkit-scrollbar-thumb {
+    background-color: var(--cor5);
+    border-radius: 4px;
 }
 
 body {
@@ -34,6 +50,7 @@ h1 {
     font-size: 2.5rem;
     color: var(--cor1);
     text-align: center;
+    position: relative;
 }
 
 p {

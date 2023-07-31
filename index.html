@@ -4,19 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gráfica TS - Capaduras - Agendas - Restauração de Livros </title>
+    <link rel="shortcut icon" href="assets/img/logo-grafica-ts/grafica-ts.ico" type="image/x-icon">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/inicio.css">
     <link rel="stylesheet" href="assets/font-icons/fontawesome-free-6.4.0-web/css/all.min.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Norican&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Norican&display=swap" rel="stylesheet">
 </head>
 <body>
     <div id="container-nav-bar">
         <nav id="nav-bar">
             <div id="nav-logo">
-                <a href="index.html"><img src="assets/img/logo-grafica-ts.png" alt="logo grafica ts"></a>
+                <a href="index.html"><img src="assets/img/logo-grafica-ts/logo-grafica-ts.png" alt="logo grafica ts"></a>
             </div>
             <div onclick="menuShow()" id="nav-icon">
                 <i class="fa-solid fa-bars"></i>
@@ -24,9 +25,9 @@
         </nav>
         <div id="nav-bar-mobile">
             <ul>
-                <li><a href="#">Início</a></li>
+                <li><a href="index.html">Início</a></li>
                 <li><a href="#">Sobre Nós</a></li>
-                <li><a href="#">Serviços</a></li>
+                <li><a href="#main-servicos">Serviços</a></li>
                 <li><a href="#">Contato</a></li>
             </ul>
         </div>
@@ -54,13 +55,13 @@
 
     <main>
         <section id="main-sobre-nos">
-            <h1>Sobre Nós</h1>
+            <h1 class="titulo-sublinhado">Sobre Nós</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit quia ipsum nobis, eveniet obcaecati quam ut, ad dicta quae perferendis est voluptates. Molestiae doloremque nobis aperiam quisquam quia. Accusamus, assumenda!</p>
             <a href="#" class="link-leitura">Ler Mais</a>
         </section>
 
         <section id="main-servicos">
-            <h1 id="main-servicos-titulo">Serviços</h1>
+            <h1 id="main-servicos-titulo" class="titulo-sublinhado">Serviços</h1>
 
             <div id="container-cards">
                 <div class="container-card">
@@ -95,7 +96,7 @@
         </section>
 
         <section id="main-parceiros">
-            <h1>Principais Parceiros</h1>
+            <h1 class="titulo-sublinhado">Parceiros</h1>
 
             <div id="container-parceiros">
                 <img src="assets/img/parceiros/parceiro-exemplo.png" alt="Parceiro Exemplo" class="parceiro">
@@ -109,8 +110,16 @@
                 <img src="assets/img/parceiros/parceiro-exemplo.png" alt="Parceiro Exemplo" class="parceiro">
                 <img src="assets/img/parceiros/parceiro-exemplo.png" alt="Parceiro Exemplo" class="parceiro">
             </div>
+
+            <div id="mao-animada">
+                <i class="fa-solid fa-hand-pointer"></i>
+            </div>
         </section>
     </main>
+
+    <footer id="contato">
+        
+    </footer>
 
     <script src="assets/js/script.js"></script>
 </body>
