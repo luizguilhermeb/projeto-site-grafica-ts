@@ -82,11 +82,10 @@ header {
     backdrop-filter: blur(5px) contrast(50%);
     height: 80vh;
     display: grid;
-    grid-template-rows: 30vh 10vh 15vh;
+    grid-template-rows: 10vh 30vh;
     grid-template-areas:
     "i1 i1" 
     "i2 i2"
-    "i3 i4"
     ;
     justify-content: center;
     align-content: center;
@@ -133,40 +132,6 @@ header {
     font-weight: 500;
     font-family: var(--fonte-manuscrita);
     text-shadow: 0px 0px 10px var(--cor1);
-}
-
-#header-icon-instagram {
-    grid-area: i3;
-    font-size: 3rem;
-    color: var(--cor3);
-    align-self: end;
-}
-
-#header-icon-instagram a i {
-    color: var(--cor3);
-    transition: 0.3s;
-}
-
-#header-icon-instagram:hover a i {
-    transform: translateY(-0.3125rem);
-    color: var(--cor8);
-}
-
-#header-icon-facebook {
-    grid-area: i4;
-    font-size: 3rem;
-    color: var(--cor3);
-    align-self: end;
-}
-
-#header-icon-facebook a i {
-    color: var(--cor3);
-    transition: 0.3s;
-}
-
-#header-icon-facebook:hover a i {
-    transform: translateY(-0.3125rem);
-    color: var(--cor8);
 }
 
 .titulo-sublinhado::after {
