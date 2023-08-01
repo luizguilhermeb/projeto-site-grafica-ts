@@ -12,7 +12,7 @@
     --cor2: #B61E61;
     --cor3: #f6cf80;
     --cor4: #ffbb34;
-    --cor5: #373737df;
+    --cor5: #1919197f;
     --cor6: #e7e7e7f4;
     --cor7: #191919;
     --cor8: #f8f8f8;
@@ -27,9 +27,9 @@
 }
 
 html {
-    overflow-x: hidden;
     scrollbar-width: thin;
     scrollbar-color: var(--cor5) var(--cor6);
+    scroll-padding-top: 5rem;
     scroll-behavior: smooth;
 }
 
@@ -51,6 +51,7 @@ h1 {
     color: var(--cor1);
     text-align: center;
     position: relative;
+    text-shadow: 0px 0px 3px var(--cor5);
 }
 
 p {

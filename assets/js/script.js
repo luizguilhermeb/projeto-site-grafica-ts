@@ -14,4 +14,9 @@ function checkScreenSize() {
     }
 }
 
+var links = document.querySelectorAll("#nav-bar-mobile a");
+for (var i = 0; i < links.length; i++) {
+    links[i].addEventListener("click", menuShow);
+}
+
 window.addEventListener("resize", checkScreenSize);
