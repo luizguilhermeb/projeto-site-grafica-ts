@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+#nav-icon i {
+    display: none;
+}
+
+#nav-desktop-links {
+    display: block;
+}

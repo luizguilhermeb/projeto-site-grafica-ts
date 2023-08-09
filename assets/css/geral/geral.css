@@ -7,13 +7,13 @@
 }
 
 :root {
-    --cor0: #2ecf87;
+    --cor0: #43abe7;
     --cor1: #C94526;
     --cor2: #B61E61;
     --cor3: #f6cf80;
     --cor4: #ffbb34;
     --cor5: #1919197f;
-    --cor6: #e7e7e7f4;
+    --cor6: #f2f0f0b0;
     --cor7: #191919;
     --cor8: #f8f8f8;
 
@@ -48,7 +48,7 @@ body {
 
 h1 {
     font-size: 2.5rem;
-    color: var(--cor1);
+    color: var(--cor0);
     text-align: center;
     position: relative;
     line-height: 3.4rem;

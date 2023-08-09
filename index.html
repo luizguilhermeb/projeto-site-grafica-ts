@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gráfica TS - Capaduras - Agendas - Restauração de Livros </title>
     <link rel="shortcut icon" href="assets/img/logo-grafica-ts/grafica-ts.ico" type="image/x-icon">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/inicio.css">
-    <link rel="stylesheet" href="assets/css/media-estendida.css" media="screen and (min-width: 600px)">
+    <link rel="stylesheet" href="assets/css/geral/geral.css">
+    <link rel="stylesheet" href="assets/css/inicio/inicio.css">
+    <link rel="stylesheet" href="assets/css/inicio/media-600px.css" media="screen and (min-width: 600px)">
+    <link rel="stylesheet" href="assets/css/geral/media-desktop-menu.css" media="screen and (min-width: 992px)">
     <link rel="stylesheet" href="assets/font-icons/fontawesome-free-6.4.0-web/css/all.min.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,11 +16,21 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Norican&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div id="container-nav-bar">
+    <section id="container-nav-bar">
         <nav id="nav-bar">
             <div id="nav-logo">
                 <a href="index.html"><img src="assets/img/logo-grafica-ts/logo-grafica-ts.png" alt="logo grafica ts"></a>
             </div>
+
+            <div id="nav-desktop-links">
+                <ul>
+                    <li><a href="#header-capa">Início</a></li>
+                    <li><a href="#main-sobre-nos">Sobre Nós</a></li>
+                    <li><a href="#main-servicos">Serviços</a></li>
+                    <li><a href="#main-fale-conosco">Contato</a></li>
+                </ul>
+            </div>
+
             <div onclick="menuShow()" id="nav-icon">
                 <i class="fa-solid fa-bars"></i>
             </div>
@@ -32,7 +43,7 @@
                 <li><a href="#main-fale-conosco">Contato</a></li>
             </ul>
         </div>
-    </div>
+    </section>
 
     <header>
         <section id="header-capa">
@@ -51,7 +62,7 @@
         <section id="main-sobre-nos">
             <h1 class="titulo-sublinhado">Sobre Nós</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit quia ipsum nobis, eveniet obcaecati quam ut, ad dicta quae perferendis est voluptates. Molestiae doloremque nobis aperiam quisquam quia. Accusamus, assumenda!</p>
-            <a href="assets/pages/sobre-nos/sobre-nos.html"wght class="link-leitura">Ler Mais</a>
+            <a href="assets/pages/sobre-nos/sobre-nos.html" rel="next" class="link-leitura">Ler Mais</a>
         </section>
 
         <section id="main-servicos">
@@ -63,7 +74,7 @@
                         <div class="card">
                             <h2>Encadernação Capa dura</h2>
                             <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint perspiciatis reiciendis repellendus consequatur laboriosam doloremque voluptates, minus dolorem rem corrupti pariatur atque? Neque labore explicabo tempora facilis soluta modi! Odit. </p>
-                            <a href="#" class="link-leitura">Orçamento</a>
+                            <a href="https://api.whatsapp.com/send?phone=5592982131230&text=Ol%C3%A1%2C%20quero%20pedir%20or%C3%A7amento%20para%20encaderna%C3%A7%C3%A3o%20capa%20dura" target="_blank" rel="author"  class="link-leitura">Orçamento</a>
                         </div>
                     </div>
                 </div>
@@ -72,7 +83,7 @@
                         <div class="card">
                             <h2>Agendas Personalizadas</h2>
                             <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint perspiciatis reiciendis repellendus consequatur laboriosam doloremque voluptates, minus dolorem rem corrupti pariatur atque? Neque labore explicabo tempora facilis soluta modi! Odit. </p>
-                            <a href="#" class="link-leitura">Orçamento</a>
+                            <a href="https://api.whatsapp.com/send?phone=5592982131230&text=Ol%C3%A1%2C%20quero%20pedir%20um%20or%C3%A7amento%20para%20agendas%20personalizadas" target="_blank" rel="author"  class="link-leitura">Orçamento</a>
                         </div>
                     </div>
                 </div>
@@ -81,7 +92,7 @@
                         <div class="card">
                             <h2>Restauração de Livros</h2>
                             <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint perspiciatis reiciendis repellendus consequatur laboriosam doloremque voluptates, minus dolorem rem corrupti pariatur atque? Neque labore explicabo tempora facilis soluta modi! Odit. </p>
-                            <a href="#" class="link-leitura">Orçamento</a>
+                            <a href="https://api.whatsapp.com/send?phone=5592982131230&text=Ol%C3%A1%2C%20quero%20pedir%20um%20or%C3%A7amento%20para%20restaura%C3%A7%C3%A3o%20de%20livros" target="_blank" rel="author"  class="link-leitura">Orçamento</a>
                         </div>
                     </div>
                 </div>
@@ -115,7 +126,7 @@
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d249.0030752315989!2d-59.9802394927452!3d-3.081541882430226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x926c1ae1dadc5f45%3A0xdfdd56ecb14cfd1a!2sR.%20Jo%C3%A3o%20Cond%C3%A9%20-%20Aleixo%2C%20Manaus%20-%20AM%2C%2069055-010!5e0!3m2!1spt-BR!2sbr!4v1690895240039!5m2!1spt-BR!2sbr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </section>
 
-    <footer id="main-fale-conosco">
+    <footer id="fale-conosco">
         <h1 class="titulo-sublinhado">Fale Conosco</h1>
 
         <div id="fale-conosco-container">
@@ -126,8 +137,8 @@
 
             <div class="container-contato">
                 <h2>Redes Sociais</h2>
-                <i class="fa-brands fa-square-instagram"></i>
-                <i class="fa-brands fa-square-whatsapp"></i>
+                <a href="https://www.instagram.com/graficatsmao/" target="_blank" rel="author"><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="https://api.whatsapp.com/send?phone=5592982131230&text=Ol%C3%A1%2C%20quero%20falar%20com%20a%20Gr%C3%A1fica%20TS" target="_blank" rel="author" ><i class="fa-brands fa-square-whatsapp"></i></a>
             </div>
         </div>
     </footer>

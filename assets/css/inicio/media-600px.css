@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+#header-titulo {
+    font-size: 5rem;
+}
+
+.container-card:nth-child(1) {
+    background: var(--cor0) url(../../img/fundos/fundo-capadura/fundo-capadura.jpg) no-repeat top / cover;
+}
+.container-card:nth-child(2) {
+    background: var(--cor0) url(../../img/fundos/fundo-agendas/fundo-agendas.jpg) no-repeat center / cover;
+}
+.container-card:nth-child(3) {
+    background: var(--cor0) url(../../img/fundos/fundo-livros/fundo-livros.jpg) no-repeat center / cover;
+}
+
+#container-parceiros::-webkit-scrollbar {
+    height: 0.7rem;
+}
+
+#mao-animada {
+    display: none;
+}
