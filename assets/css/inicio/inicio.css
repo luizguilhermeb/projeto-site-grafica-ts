@@ -63,10 +63,6 @@
     color: var(--cor8);
 }
 
-#nav-icon i:active {
-    color: var(--cor3);
-}
-
 #nav-bar-mobile {
     display: none;
     background-color: var(--cor6);
@@ -132,12 +128,13 @@ header {
 
 #header-titulo {
     grid-area: i1;
-    font-size: 3.3rem;
+    line-height: 6rem;
+    font-size: 5rem;
     position: relative;
     text-align: center;
     align-self: center;
     color: var(--cor0);
-    text-shadow: 0px 0px 15px var(--cor8);
+    text-shadow: 0px 0px 15px var(--cor9);
 }
 
 #header-titulo::after {
@@ -146,10 +143,10 @@ header {
     box-shadow: 0px 0px 15px var(--cor7);
     width: 7.5rem;
     height: 0.1875rem;
-    box-shadow: 0px 0px 5px var(--cor8);
+    box-shadow: 0px 0px 5px var(--cor9);
 
     position: absolute;
-    top: 4.8rem;
+    top: 6rem;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -215,10 +212,6 @@ header {
     background-color: var(--cor8);
 }
 
-#main-sobre-nos a:active {
-    background-color: var(--cor5);
-}
-
 #main-servicos {
     padding-bottom: 4.5rem;
 }
@@ -282,10 +275,6 @@ header {
 .card a:hover {
     color: var(--cor0);
     background-color: var(--cor8);
-}
-
-.card a:active {
-    background-color: var(--cor5);
 }
 
 #main-parceiros {
@@ -360,6 +349,7 @@ header {
     width: 100%;
     height: 450px;
     margin-bottom: 2rem;
+    box-shadow: 0px 0px 10px var(--cor5);
 }
 
 #main-mapa iframe {
@@ -410,8 +400,4 @@ header {
 .container-contato i:hover {
     bottom: 0.1875rem;
     color: var(--cor8);
-}
-
-.container-contato i:active {
-    color: var(--cor6);
 }

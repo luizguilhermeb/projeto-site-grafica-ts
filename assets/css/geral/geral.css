@@ -16,6 +16,7 @@
     --cor6: #f2f0f0b0;
     --cor7: #191919;
     --cor8: #f8f8f8;
+    --cor9: #000eff;
 
     --gradient1: linear-gradient(
         to right, var(--cor1), var(--cor2), var(--cor0)

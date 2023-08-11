@@ -1,7 +1,11 @@
 @charset "UTF-8";
 
 #header-titulo {
-    font-size: 5rem;
+    font-size: 8rem;
+}
+
+#header-titulo::after {
+    top: 8rem;
 }
 
 .container-card:nth-child(1) {
