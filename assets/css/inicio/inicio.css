@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+strong {
+    color: var(--cor0);
+}
+
 #container-nav-bar {
     position: sticky;
     top: 0px;
