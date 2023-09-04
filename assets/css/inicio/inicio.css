@@ -111,7 +111,7 @@ strong {
 }
 
 header {
-    background: var(--cor0) url(../../img/fundos/fundo-grafica/fundo-grafica-250.jpg) no-repeat center / cover;
+    background: var(--cor0) url(../../img/fundos/fundo-grafica/fundo-grafica.webp) no-repeat center / cover;
     box-shadow: 0px 0px 10px var(--cor5);
     margin-top: -5rem;
 }
@@ -229,13 +229,13 @@ header {
 }
 
 .container-card:nth-child(1) {
-    background: var(--cor0) url(../../img/fundos/fundo-capadura/fundo-capadura-550.jpg) no-repeat center / cover;
+    background: var(--cor0) url(../../img/fundos/fundo-capadura/fundo-capadura-550.webp) no-repeat center / cover;
 }
 .container-card:nth-child(2) {
-    background: var(--cor0) url(../../img/fundos/fundo-agendas/fundo-agendas-550.jpg) no-repeat center / cover;
+    background: var(--cor0) url(../../img/fundos/fundo-agendas/fundo-agendas-550.webp) no-repeat center / cover;
 }
 .container-card:nth-child(3) {
-    background: var(--cor0) url(../../img/fundos/fundo-livros/fundo-livros-550.jpg) no-repeat center / cover;
+    background: var(--cor0) url(../../img/fundos/fundo-livros/fundo-livros-550.webp) no-repeat center / cover;
 }
 
 .container-card-efeitos {
