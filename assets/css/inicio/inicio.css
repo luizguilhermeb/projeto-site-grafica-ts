@@ -270,8 +270,9 @@ header {
 
 .card a {
     text-decoration: none;
-    color: var(--cor8);
-    background-color: var(--cor10);
+    font-weight: bold;
+    color: var(--cor7);
+    background-color: var(--cor3);
     padding: 0.625rem 2rem;
     border: 0.0625rem solid var(--cor0);
     transition: 0.3s;
