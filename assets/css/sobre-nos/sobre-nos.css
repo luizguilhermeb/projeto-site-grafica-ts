@@ -178,6 +178,10 @@ main p {
     margin: auto;
 }
 
+#fale-conosco h1.titulo-sublinhado::after {
+    background-color: var(--cor10);
+}
+
 .container-contato {
     margin-top: 2rem;
     font-size: 1.2rem;
@@ -185,14 +189,14 @@ main p {
 
 .container-contato p {
     padding-top: 0.5rem;
-    color: var(--cor0);
+    color: var(--cor10);
 }
 
 .container-contato i {
     font-size: 2.5rem;
     padding: 1rem;
     cursor: pointer;
-    color: var(--cor0);
+    color: var(--cor10);
 
     position: relative;
     bottom: 0rem;

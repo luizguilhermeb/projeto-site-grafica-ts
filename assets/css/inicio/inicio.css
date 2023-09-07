@@ -138,13 +138,13 @@ header {
     position: relative;
     text-align: center;
     align-self: center;
-    color: var(--cor0);
+    color: var(--cor10);
     text-shadow: 0px 0px 15px var(--cor9);
 }
 
 #header-titulo::after {
     content: "";
-    background-color: var(--cor0);
+    background-color: var(--cor10);
     box-shadow: 0px 0px 15px var(--cor7);
     width: 7.5rem;
     height: 0.1875rem;
@@ -271,7 +271,7 @@ header {
 .card a {
     text-decoration: none;
     color: var(--cor8);
-    background-color: var(--cor0);
+    background-color: var(--cor10);
     padding: 0.625rem 2rem;
     border: 0.0625rem solid var(--cor0);
     transition: 0.3s;
@@ -280,6 +280,10 @@ header {
 .card a:hover {
     color: var(--cor0);
     background-color: var(--cor8);
+}
+
+.texto-chamativo {
+    color: var(--cor3);
 }
 
 #main-parceiros {
@@ -377,6 +381,10 @@ header {
     padding-bottom: 2rem;
 }
 
+#fale-conosco h1.titulo-sublinhado::after {
+    background-color: var(--cor10);
+}
+
 #fale-conosco-container {
     max-width: 50rem;
     margin: auto;
@@ -389,14 +397,14 @@ header {
 
 .container-contato p {
     padding-top: 0.5rem;
-    color: var(--cor0);
+    color: var(--cor10);
 }
 
 .container-contato i {
     font-size: 2.5rem;
     padding: 1rem;
     cursor: pointer;
-    color: var(--cor0);
+    color: var(--cor10);
 
     position: relative;
     bottom: 0rem;

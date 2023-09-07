@@ -7,7 +7,7 @@
 }
 
 :root {
-    --cor0: #00a2ff;
+    --cor0: #075a8b;
     --cor1: #C94526;
     --cor2: #B61E61;
     --cor3: #f6cf80;
@@ -16,7 +16,8 @@
     --cor6: #f2f0f0b0;
     --cor7: #191919;
     --cor8: #f8f8f8;
-    --cor9: #000eff;
+    --cor9: #000dff;
+    --cor10: #2393fc;
 
     --gradient1: linear-gradient(
         to right, var(--cor1), var(--cor2), var(--cor0)
