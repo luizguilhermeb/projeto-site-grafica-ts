@@ -318,6 +318,7 @@ header {
 .parceiro {
     width: 22rem;
     height: 11.25rem;
+    object-fit: cover;
 }
 
 #mao-animada {
