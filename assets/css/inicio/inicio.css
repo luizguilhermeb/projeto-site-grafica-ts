@@ -22,6 +22,7 @@ strong {
 
 #nav-logo a img {
     width: 4.0625rem;
+    height: 4.0625rem;
 }
 
 #nav-desktop-links {
@@ -315,7 +316,8 @@ header {
 }
 
 .parceiro {
-    max-width: 22rem;
+    width: 22rem;
+    height: 11.25rem;
 }
 
 #mao-animada {
