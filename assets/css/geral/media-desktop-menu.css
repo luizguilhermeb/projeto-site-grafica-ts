@@ -1,7 +1,17 @@
 @charset "UTF-8";
 
-#nav-icon i {
+#nav-icon {
     display: none;
+}
+
+#nav-logo a ,
+#navlogo a {
+    position: relative;
+    left: -10vw;
+}
+
+#nav-bar {
+    justify-content: center;
 }
 
 #nav-desktop-links {

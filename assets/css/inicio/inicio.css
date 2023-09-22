@@ -422,9 +422,14 @@ header {
   font-size: 1.2rem;
 }
 
-.container-contato p {
+.container-contato a {
+  text-decoration: none;
   padding-top: 0.5rem;
   color: var(--cor10);
+}
+
+.container-contato a:hover {
+  text-decoration: underline;
 }
 
 .container-contato i {

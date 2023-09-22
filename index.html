@@ -1,147 +1,265 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gráfica TS - Capaduras - Agendas - Restauração de Livros </title>
-    <meta name="description" content="Uma gráfica que trabalha com Encadernação de Capadura, Agendas Personalizadas e Restauração de Livros">
-    <link rel="shortcut icon" href="assets/img/logo-grafica-ts/grafica-ts.ico" type="image/x-icon">
-    <link rel="stylesheet" href="assets/css/geral/geral.css">
-    <link rel="stylesheet" href="assets/css/inicio/inicio.css">
-    <link rel="stylesheet" href="assets/css/inicio/media-600px.css" media="screen and (min-width: 600px)">
-    <link rel="stylesheet" href="assets/css/inicio/media-1080px.css" media="screen and (min-width:1080px)">
-    <link rel="stylesheet" href="assets/css/geral/media-desktop-menu.css" media="screen and (min-width: 992px)">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gráfica TS - Capaduras - Agendas - Restauração de Livros</title>
+    <meta
+      name="description"
+      content="Uma gráfica que trabalha com Encadernação de Capadura, Agendas Personalizadas e Restauração de Livros"
+    />
+    <link
+      rel="shortcut icon"
+      href="assets/img/logo-grafica-ts/grafica-ts.ico"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="assets/css/geral/geral.css" />
+    <link rel="stylesheet" href="assets/css/inicio/inicio.css" />
+    <link
+      rel="stylesheet"
+      href="assets/css/inicio/media-600px.css"
+      media="screen and (min-width: 600px)"
+    />
+    <link
+      rel="stylesheet"
+      href="assets/css/inicio/media-1080px.css"
+      media="screen and (min-width:1080px)"
+    />
+    <link
+      rel="stylesheet"
+      href="assets/css/geral/media-desktop-menu.css"
+      media="screen and (min-width: 992px)"
+    />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Norican&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Norican&display=swap"
+      rel="stylesheet"
+    />
 
-    <script src="https://kit.fontawesome.com/07531f85f9.js" crossorigin="anonymous"></script>
-</head>
-<body>
+    <script
+      src="https://kit.fontawesome.com/07531f85f9.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
     <section id="container-nav-bar">
-        <nav id="nav-bar">
-            <div id="nav-logo">
-                <a href="index.html"><img src="assets/img/logo-grafica-ts/logo-grafica-ts.webp" alt="logo grafica ts"></a>
-            </div>
-
-            <div id="nav-desktop-links">
-                <ul>
-                    <li><a href="#header-capa">Início</a></li>
-                    <li><a href="#main-sobre-nos">Sobre Nós</a></li>
-                    <li><a href="#main-servicos">Serviços</a></li>
-                    <li><a href="#main-parceiros">Parceiros</a></li>
-                    <li><a href="#fale-conosco">Contato</a></li>
-                </ul>
-            </div>
-
-            <button aria-label="menu de opções" onclick="menuShow()" id="nav-icon">
-                <i class="fa-solid fa-bars"></i>
-            </button>
-        </nav>
-        <div id="nav-bar-mobile">
-            <ul>
-                <li><a href="index.html">Início</a></li>
-                <li><a href="#main-sobre-nos">Sobre Nós</a></li>
-                <li><a href="#main-servicos">Serviços</a></li>
-                <li><a href="#main-parceiros">Parceiros</a></li>
-                <li><a href="#fale-conosco">Contato</a></li>
-            </ul>
+      <nav id="nav-bar">
+        <div id="nav-logo">
+          <a href="index.html"
+            ><img
+              src="assets/img/logo-grafica-ts/logo-grafica-ts.webp"
+              alt="logo grafica ts"
+          /></a>
         </div>
+
+        <div id="nav-desktop-links">
+          <ul>
+            <li><a href="#header-capa">Início</a></li>
+            <li><a href="#main-sobre-nos">Sobre Nós</a></li>
+            <li><a href="#main-servicos">Serviços</a></li>
+            <li><a href="#main-parceiros">Parceiros</a></li>
+            <li><a href="#fale-conosco">Contato</a></li>
+          </ul>
+        </div>
+
+        <button aria-label="menu de opções" onclick="menuShow()" id="nav-icon">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </nav>
+      <div id="nav-bar-mobile">
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="#main-sobre-nos">Sobre Nós</a></li>
+          <li><a href="#main-servicos">Serviços</a></li>
+          <li><a href="#main-parceiros">Parceiros</a></li>
+          <li><a href="#fale-conosco">Contato</a></li>
+        </ul>
+      </div>
     </section>
 
     <header>
-        <section id="header-capa">
-            <h1 id="header-titulo">Gráfica TS</h1>
-            
-            <div id="header-subtitulo">
-                <div id="icon-coroa">
-                    <i class="fa-solid fa-crown"></i>
-                </div>
-                <p id="header-slogan">Desde 1997</p>
-            </div>
-        </section>
+      <section id="header-capa">
+        <h1 id="header-titulo">Gráfica TS</h1>
+
+        <div id="header-subtitulo">
+          <div id="icon-coroa">
+            <i class="fa-solid fa-crown"></i>
+          </div>
+          <p id="header-slogan">Desde 1997</p>
+        </div>
+      </section>
     </header>
 
     <main>
-        <section id="main-sobre-nos">
-            <h1 class="titulo-sublinhado">Sobre Nós</h1>
-            <p>O <strong>compromisso</strong> da Gráfica TS com a <strong>qualidade</strong> transcende cada projeto que tocamos. Nossos materiais, atenção meticulosa aos detalhes e comprometimento com <strong>prazos</strong> de entrega são a base de nossa reputação impecável.</p>
-            <a href="assets/pages/sobre-nos/sobre-nos.html" rel="next" class="link-leitura">Ler Mais</a>
-        </section>
+      <section id="main-sobre-nos">
+        <h1 class="titulo-sublinhado">Sobre Nós</h1>
+        <p>
+          O <strong>compromisso</strong> da Gráfica TS com a
+          <strong>qualidade</strong> transcende cada projeto que tocamos. Nossos
+          materiais, atenção meticulosa aos detalhes e comprometimento com
+          <strong>prazos</strong> de entrega são a base de nossa reputação
+          impecável.
+        </p>
+        <a
+          href="assets/pages/sobre-nos/sobre-nos.html"
+          rel="next"
+          class="link-leitura"
+          >Ler Mais</a
+        >
+      </section>
 
-        <section id="main-servicos">
-            <h1 id="main-servicos-titulo" class="titulo-sublinhado">Serviços</h1>
+      <section id="main-servicos">
+        <h1 id="main-servicos-titulo" class="titulo-sublinhado">Serviços</h1>
 
-            <div id="container-cards">
-                <div class="container-card">
-                    <div class="container-card-efeitos">
-                        <div class="card">
-                            <h2>Encadernação Capa dura</h2>
-                            <p>Um processo meticuloso que envolve a fusão perfeita entre proteção durável e estética elegante com uso de alta tecnologia, fazemos tanto <strong class="texto-chamativo">TCCs como também outros pedidos</strong></p>
-                            <a href="https://api.whatsapp.com/send?phone=5592982131230&text=Ol%C3%A1%2C%20quero%20pedir%20or%C3%A7amento%20para%20encaderna%C3%A7%C3%A3o%20capa%20dura" target="_blank" rel="author"  class="link-leitura">Orçamento</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="container-card">
-                    <div class="container-card-efeitos">
-                        <div class="card">
-                            <h2>Agendas Personalizadas</h2>
-                            <p>Fazemos agendas personalizadas <strong class="texto-chamativo">a partir de 10 unidades</strong> para sua marca, loja, revenda e outras finalidades.</p>
-                            <a href="https://api.whatsapp.com/send?phone=5592982131230&text=Ol%C3%A1%2C%20quero%20pedir%20um%20or%C3%A7amento%20para%20agendas%20personalizadas" target="_blank" rel="author"  class="link-leitura">Orçamento</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="container-card">
-                    <div class="container-card-efeitos">
-                        <div class="card">
-                            <h2>Restauração de Livros</h2>
-                            <p>Nossa <strong class="texto-chamativo">habilidade em restauração de livros</strong> permite que obras literárias e científicas ganhem uma nova vida, preservando sua história e importância.</p>
-                            <a href="https://api.whatsapp.com/send?phone=5592982131230&text=Ol%C3%A1%2C%20quero%20pedir%20um%20or%C3%A7amento%20para%20restaura%C3%A7%C3%A3o%20de%20livros" target="_blank" rel="author"  class="link-leitura">Orçamento</a>
-                        </div>
-                    </div>
-                </div>
+        <div id="container-cards">
+          <div class="container-card">
+            <div class="container-card-efeitos">
+              <div class="card">
+                <h2>Encadernação Capa dura</h2>
+                <p id="encadernacao-paragrafo">
+                  Um processo meticuloso que envolve a fusão perfeita entre
+                  proteção durável e estética elegante com uso de alta
+                  tecnologia, fazemos tanto
+                  <strong class="texto-chamativo"
+                    >TCCs como também outros pedidos</strong
+                  >
+                </p>
+                <a
+                  href="https://api.whatsapp.com/send?phone=5592982131230&text=Ol%C3%A1%2C%20quero%20pedir%20or%C3%A7amento%20para%20encaderna%C3%A7%C3%A3o%20capa%20dura"
+                  target="_blank"
+                  rel="author"
+                  class="link-leitura"
+                  aria-describedby="encadernacao-paragrafo"
+                  >Orçamento</a
+                >
+              </div>
             </div>
-        </section>
-
-        <section id="main-parceiros">
-            <h1 class="titulo-sublinhado">Alguns Parceiros</h1>
-
-            <div id="container-parceiros">
-                <img src="assets/img/parceiros/logo-print-copy.webp" alt="logo print copy" class="parceiro">
-                <img src="assets/img/parceiros/logo-goias-multimarcas.webp" alt="logo goias multimarcas" class="parceiro">
-                <img src="assets/img/parceiros/logo-help-the-planet.webp" alt="logo help the planet" class="parceiro">
+          </div>
+          <div class="container-card">
+            <div class="container-card-efeitos">
+              <div class="card">
+                <h2>Agendas Personalizadas</h2>
+                <p id="agendas-paragrafo">
+                  Fazemos agendas personalizadas
+                  <strong class="texto-chamativo"
+                    >a partir de 10 unidades</strong
+                  >
+                  para sua marca, loja, revenda e outras finalidades.
+                </p>
+                <a
+                  href="https://api.whatsapp.com/send?phone=5592982131230&text=Ol%C3%A1%2C%20quero%20pedir%20um%20or%C3%A7amento%20para%20agendas%20personalizadas"
+                  target="_blank"
+                  rel="author"
+                  class="link-leitura"
+                  aria-describedby="agendas-paragrafo"
+                  >Orçamento</a
+                >
+              </div>
             </div>
-
-            <div id="mao-animada">
-                <i class="fa-solid fa-hand-pointer"></i>
+          </div>
+          <div class="container-card">
+            <div class="container-card-efeitos">
+              <div class="card">
+                <h2>Restauração de Livros</h2>
+                <p id="livros-paragrafo">
+                  Nossa
+                  <strong class="texto-chamativo"
+                    >habilidade em restauração de livros</strong
+                  >
+                  permite que obras literárias e científicas ganhem uma nova
+                  vida, preservando sua história e importância.
+                </p>
+                <a
+                  href="https://api.whatsapp.com/send?phone=5592982131230&text=Ol%C3%A1%2C%20quero%20pedir%20um%20or%C3%A7amento%20para%20restaura%C3%A7%C3%A3o%20de%20livros"
+                  target="_blank"
+                  rel="author"
+                  class="link-leitura"
+                  aria-describedby="livros-paragrafo"
+                  >Orçamento</a
+                >
+              </div>
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
+
+      <section id="main-parceiros">
+        <h1 class="titulo-sublinhado">Alguns Parceiros</h1>
+
+        <div id="container-parceiros">
+          <img
+            src="assets/img/parceiros/logo-print-copy.webp"
+            alt="logo print copy"
+            class="parceiro"
+          />
+          <img
+            src="assets/img/parceiros/logo-goias-multimarcas.webp"
+            alt="logo goias multimarcas"
+            class="parceiro"
+          />
+          <img
+            src="assets/img/parceiros/logo-help-the-planet.webp"
+            alt="logo help the planet"
+            class="parceiro"
+          />
+        </div>
+
+        <div id="mao-animada">
+          <i class="fa-solid fa-hand-pointer"></i>
+        </div>
+      </section>
     </main>
 
     <section id="main-mapa">
-        <a target="_blank" class="link-leitura" rel="external" href="https://www.google.com/maps/place/R.+Jo%C3%A3o+Cond%C3%A9+-+Aleixo,+Manaus+-+AM,+69055-010/@-3.081493,-59.980357,21z/data=!4m6!3m5!1s0x926c1ae1dadc5f45:0xdfdd56ecb14cfd1a!8m2!3d-3.081511!4d-59.9803365!16s%2Fg%2F1ymx441qr?hl=pt-BR&entry=ttu">Localização</a>
+      <a
+        target="_blank"
+        class="link-leitura"
+        rel="external"
+        href="https://www.google.com/maps/place/R.+Jo%C3%A3o+Cond%C3%A9+-+Aleixo,+Manaus+-+AM,+69055-010/@-3.081493,-59.980357,21z/data=!4m6!3m5!1s0x926c1ae1dadc5f45:0xdfdd56ecb14cfd1a!8m2!3d-3.081511!4d-59.9803365!16s%2Fg%2F1ymx441qr?hl=pt-BR&entry=ttu"
+        >Localização</a
+      >
 
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d249.0030752315989!2d-59.9802394927452!3d-3.081541882430226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x926c1ae1dadc5f45%3A0xdfdd56ecb14cfd1a!2sR.%20Jo%C3%A3o%20Cond%C3%A9%20-%20Aleixo%2C%20Manaus%20-%20AM%2C%2069055-010!5e0!3m2!1spt-BR!2sbr!4v1690895240039!5m2!1spt-BR!2sbr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Mapa localizador da Gráfica TS, Aleixo, Condomínio Joaquim Ribeiro, Rua João Condé, Número 02"></iframe>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d249.0030752315989!2d-59.9802394927452!3d-3.081541882430226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x926c1ae1dadc5f45%3A0xdfdd56ecb14cfd1a!2sR.%20Jo%C3%A3o%20Cond%C3%A9%20-%20Aleixo%2C%20Manaus%20-%20AM%2C%2069055-010!5e0!3m2!1spt-BR!2sbr!4v1690895240039!5m2!1spt-BR!2sbr"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        title="Mapa localizador da Gráfica TS, Aleixo, Condomínio Joaquim Ribeiro, Rua João Condé, Número 02"
+      ></iframe>
     </section>
 
     <footer id="fale-conosco">
-        <h1 class="titulo-sublinhado">Fale Conosco</h1>
+      <h1 class="titulo-sublinhado">Fale Conosco</h1>
 
-        <div id="fale-conosco-container">
-            <div class="container-contato">
-                <h2>Contato</h2>
-                <p>(92) 98213-1230</p>
-            </div>
-
-            <div class="container-contato">
-                <h2>Redes Sociais</h2>
-                <a href="https://www.instagram.com/graficatsmao/" target="_blank" rel="author" aria-label="Instagram da Gráfica TS"><i class="fa-brands fa-square-instagram"></i></a>
-                <a href="https://api.whatsapp.com/send?phone=5592982131230&text=Ol%C3%A1%2C%20quero%20falar%20com%20a%20Gr%C3%A1fica%20TS" target="_blank" rel="author" aria-label="Whatsapp da Gráfica TS"><i class="fa-brands fa-square-whatsapp"></i></a>
-            </div>
+      <div id="fale-conosco-container">
+        <div class="container-contato">
+          <h2>Contato</h2>
+          <a href="https://api.whatsapp.com/send?phone=5592982131230&text=Ol%C3%A1%2C%20quero%20falar%20com%20a%20Gr%C3%A1fica%20TS" target="_blank" rel="author">(92) 98213-1230</a>
         </div>
+
+        <div class="container-contato">
+          <h2>Redes Sociais</h2>
+          <a
+            href="https://www.instagram.com/graficatsmao/"
+            target="_blank"
+            rel="author"
+            aria-label="Instagram da Gráfica TS"
+            ><i class="fa-brands fa-square-instagram"></i
+          ></a>
+          <a
+            href="https://api.whatsapp.com/send?phone=5592982131230&text=Ol%C3%A1%2C%20quero%20falar%20com%20a%20Gr%C3%A1fica%20TS"
+            target="_blank"
+            rel="author"
+            aria-label="Whatsapp da Gráfica TS"
+            ><i class="fa-brands fa-square-whatsapp"></i
+          ></a>
+        </div>
+      </div>
     </footer>
 
     <script src="assets/js/script.js"></script>
-</body>
+  </body>
 </html>
