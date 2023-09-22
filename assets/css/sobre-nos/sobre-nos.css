@@ -201,6 +201,10 @@ main p {
     text-decoration: underline;
 }
 
+.container-contato a:visited {
+    color: var(--cor10);
+}
+
 .container-contato i {
     font-size: 2.5rem;
     padding: 1rem;
