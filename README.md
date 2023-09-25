@@ -1,5 +1,4 @@
 # projeto-site-grafica-ts
  O meu primeiro site real feito com HTML / CSS e um pouco de JS
 
-# Deploy
- <a>graficats.netlify.app</a>
+(Deploy)[graficats.netlify.app]
